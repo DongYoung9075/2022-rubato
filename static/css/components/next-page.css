@@ -1,0 +1,26 @@
+.next-page {
+    width: 268px;
+    height: 40px;
+    background-color: #8CA0EF;
+    border-radius: 20px;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 116px;
+}
+
+.sign-up {
+
+    background-color: #ffffff;
+    text-align: center;
+    margin: 2% auto;
+    margin-bottom: 4%;
+}
+
+.sign-up h1 {
+    font-size: 28px;
+    letter-spacing: -0.7px;
+    color: #8CA0EF;
+    padding: 40px 0px;
+}
