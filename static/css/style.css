@@ -1,0 +1,22 @@
+@import "./reset.css";
+
+/*component*/
+@import "./components/nav.css";
+@import "./components/alarm.css";
+@import "./components/footer.css";
+@import "./components/next-page.css";
+
+
+/* screen */
+@import "./screen/main.css";
+@import "./screen/login.css";
+@import "./screen/sign-up.css";
+@import "./screen/sign-up2.css";
+@import "./screen/sign-up3.css";
+@import "./screen/sign-up4.css";
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

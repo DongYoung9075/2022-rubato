@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ke">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/mainlogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUBATO</title>
+    <link href="../static/css/style.css" rel="stylesheet" />
+
+</head>
+
+<body class="main-page">
+    <nav class="nav">
+        <div class="nav__column">
+            <ul class="nav-items">
+                <img class="nav-items__titleimg" src="../static/img/mainlogo.png">
+                <li class="nav-items__title"> <a href="./index.html">
+                        RUBATO
+                    </a></li>
+                <li class="nav-items__item"><a href="#">MATCHING</a></li>
+                <li class="nav-items__item"><a href="#">PORTFOLIO</a></li>
+                <li class="nav-items__item"><a href="#">COMMUNITY</a></li>
+            </ul>
+        </div>
+        <div class="search nav__column">
+            <input class="search__input" type="text" placeholder="검색어를 입력하세요." />
+            <span class="search__img">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </a>
+            </span>
+        </div>
+        <div class="nav__column">
+            <div class="nav__alarms">
+                <a href="#" class="nav__alarms-alarm login-btn">
+                    <span>Log in</span>
+                </a>
+                <a href="#" class="nav__alarms-alarm login-btn signup-btn">
+                    <span>회원 가입</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <div class="sign-up sign-up2">
+            <h1>RUBATO 회원가입</h1>
+            <h4>본인인증</h4>
+            <form class="sing-up2__citebox">
+                <label for="#"><input type="radio" name="cite" id="ph-cite"><span>휴대폰 번호로 인증</span></label>
+                <label for="#"><input type="radio" name="cite" id="em-cite"><span>이메일로 인증</span></label>
+            </form>
+            <form class="sign-up2__citebox2">
+                <span>연락처</span>
+                <input type="text" name="phone-number" id="phone-number" placeholder="연락처(-제외)" />
+                <button>인증번호 전송</button>
+                <span>인증번호</span>
+                <label for="cite-number">
+                    <input type="text" name="cite-number" id="cite-number" placeholder="인증번호 입력" />
+                    <span class="sign-up2__citebox2-Timeremaining">
+                        (05:00)
+                    </span></label>
+
+            </form>
+            <a href="../AccountApp/sign-up3.html" class="next-page">다음</a>
+
+        </div>
+        </div>
+    </main>
+
+
+
+    <footer class="login-footer">
+        <div class="footer-info">
+            <img src="../static/img/mainlogo.png" />
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">개인정보취급방침</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">개인정보취급방침</a>
+        </div>
+        <div class="footer-info2">
+            <div class="footer_info2-square"></div>
+            <div class="footer_info2-square"></div>
+            <div class="footer_info2-square"></div>
+            <div class="footer_info2-square"></div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/3fb5443896.js" crossorigin="anonymous"></script>
+    <script src="./js/agree.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+.sign-up2 {
+    width: 500px;
+    height: 576px;
+    margin-top: 120px;
+}
+
+.sign-up2 h4 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #8CA0EF;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sing-up2__citebox {
+    width: 386px;
+    height: 66px;
+    border: 2px solid #8CA0EF;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sing-up2__citebox span {
+    margin-right: 22px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sign-up2__citebox2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 58px;
+}
+
+.sign-up2__citebox2 span {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.sign-up2__citebox2 input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    width: 384px;
+    height: 46px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sign-up2__citebox2 input::placeholder {
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    color: #DBDBDB;
+}
+
+.sign-up2__citebox2 button {
+    position: absolute;
+    right: 60px;
+    bottom: 165px;
+    width: 98px;
+    height: 30px;
+    background: #8CA0EF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sign-up2__citebox2-Timeremaining {
+    position: absolute;
+    right: 60px;
+    bottom: 55px;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    color: #707070;
+}
+
+#cite-number {
+    margin-bottom: 50px;
+}
