@@ -68,6 +68,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 0.7;
 }
 
 .login-box__login_etc-checkbox span {

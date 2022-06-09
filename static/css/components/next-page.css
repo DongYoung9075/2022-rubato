@@ -1,14 +1,28 @@
 .next-page {
-    width: 268px;
-    height: 40px;
+    
     background-color: #8CA0EF;
     border-radius: 20px;
     color: #ffffff;
     letter-spacing: -0.5px;
     font-size: 20px;
     font-weight: 300;
-    padding: 5px 116px;
+    padding: 5px 150px;
 }
+
+.sign-up6 .next-page2 {
+    
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #8CA0EF;
+    border:1px solid #8CA0EF;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 150px;
+    margin-top:20px;
+}
+
+
 
 .sign-up {
 

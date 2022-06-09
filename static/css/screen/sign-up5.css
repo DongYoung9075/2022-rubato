@@ -1,22 +1,30 @@
-.sign-up4 {
+.sign-up5 {
     width: 500px;
-    height: 742px;
+    height: 1180px;
 }
 
-.sign-up4 h3 {
+.sign-up5__genre{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+color: #8CA0EF;
+}
+
+.sign-up5 h3 {
     font-size: 18px;
     letter-spacing: -0.45px;
     color: #191919;
     margin-bottom: 10px;
+margin-top:30px;
+
 }
 
-.sign-up4 h4{
+.sign-up5 h4{
     letter-spacing: -0.4px;
 color: #505050;
 opacity: 0.7;
 }
 
-.sign-up4 img {
+.sign-up5 img {
     width: 180px;
     height: 180px;
     margin: 10px;
@@ -24,10 +32,10 @@ opacity: 0.7;
 
 }
 
-.sign-up4__img-section{
+.sign-up5__img-section{
     margin-top:30px;
 }
 
-.sign-up4__img_bottom{
-    margin-bottom:55px;
+.sign-up5__img_bottom{
+    margin-bottom:40px;
 }
