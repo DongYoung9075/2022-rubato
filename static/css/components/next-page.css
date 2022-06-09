@@ -1,5 +1,4 @@
 .next-page {
-    
     background-color: #8CA0EF;
     border-radius: 20px;
     color: #ffffff;
@@ -9,7 +8,7 @@
     padding: 5px 150px;
 }
 
-.sign-up6 .next-page2 {
+ .next-page2 {
     
     background-color: #ffffff;
     border-radius: 20px;
@@ -25,7 +24,6 @@
 
 
 .sign-up {
-
     background-color: #ffffff;
     text-align: center;
     margin: 2% auto;

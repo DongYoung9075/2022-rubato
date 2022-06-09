@@ -1,0 +1,26 @@
+.find-pw_end{
+    width: 500px;
+    height:356px ;
+    margin-top:230px;
+}
+
+.find-pw_end-btn{
+    display: flex;
+    flex-direction: column;
+    padding:0 58px;
+    margin-top:40px;
+}
+
+
+.find-pw_end .next-page2{
+    margin:20px 0;
+}
+
+.find-pw_end-btn a{
+font-size: 18px;
+}
+
+.find-pw_end .next-page2,
+.find-pw_end .next-page{
+    padding: 10px 0;
+}

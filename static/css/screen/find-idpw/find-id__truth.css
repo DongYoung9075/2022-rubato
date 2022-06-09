@@ -1,0 +1,39 @@
+.find-id__truth{
+    width: 500px;
+    height: 452px;
+    margin: 120px auto;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.find-id__userid{
+    width: 384px;
+    height: 66px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #8CA0EF;
+    margin:25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.find-id__truth-btn{
+    display: flex;
+    flex-direction: column;
+    padding:0 58px;
+}
+
+
+.find-id__truth .next-page{
+    margin:30px 0;
+}
+
+.find-id__truth-btn a{
+font-size: 18px;
+}
+
+.find-id__truth .next-page2,
+.find-id__truth .next-page{
+    padding: 10px 0;
+}

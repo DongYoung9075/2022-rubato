@@ -10,12 +10,17 @@
 /* screen */
 @import "./screen/main.css";
 @import "./screen/login.css";
-@import "./screen/sign-up.css";
-@import "./screen/sign-up2.css";
-@import "./screen/sign-up3.css";
-@import "./screen/sign-up4.css";
-@import "./screen/sign-up5.css";
-@import "./screen/sign-up6.css";
+@import "./screen/sign-up/sign-up.css";
+@import "./screen/sign-up/sign-up2.css";
+@import "./screen/sign-up/sign-up3.css";
+@import "./screen/sign-up/sign-up4.css";
+@import "./screen/sign-up/sign-up5.css";
+@import "./screen/sign-up/sign-up6.css";
+@import "./screen/find-idpw/find-idpw.css";
+@import "./screen/find-idpw/find-id__fail.css";
+@import "./screen/find-idpw/find-id__truth.css";
+@import "./screen/find-idpw/find-pw.css";
+@import "./screen/find-idpw/find-pw_end.css";
 
 body {
     width: 100%;

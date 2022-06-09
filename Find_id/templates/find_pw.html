@@ -8,10 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUBATO</title>
     <link href="../../static/css/style.css" rel="stylesheet" />
-
 </head>
 
-<body class="main-page">
+<body class="main-page login-screen">
     <nav class="nav">
         <div class="nav__column">
             <ul class="nav-items">
@@ -47,31 +46,20 @@
 
 
     <main>
-        <div class="sign-up sign-up5">
-            <h1>RUBATO 회원가입</h1>
-            <span class="sign-up5__genre">음악</span>
-            <h3>취향에 맞는 장르를 선택해주세요.<br>당신과 어울리는 예술인을 추천해드립니다.</h3>
-            <h4>(복수 선택 가능)</h4>
-            <div class="sign-up5__img-section">
-            <div class="sign-up5__img">
-                <img src="../../static/img/artist.jpeg">
-                <img src="../../static/img/artist.jpeg">
+        <div class="find-idpw find-pw">
+            <h1>비밀번호 재설정</h1>
+            <h3>계정 확인이 완료되었습니다.<br>새로운 비밀번호를 설정하세요.</h3>
+            <form class="find-pw__userpw">
+                <label for="findid-phnumber">
+                    <input type="text" name="user-pw" id="reset_user-pw" placeholder="비밀번호" />
+                </label>
+                <label for="findid-number">
+                    <input type="text" name="user-pw_confirm" id="reset_user-pw_confirm" placeholder="비밀번호 확인" />
+                    </label>
+            </form>
+            <div class="find-pw_btn">
+                <a href="../../Find_id/templates/find-pw_end.html" class="next-page"><span>다음</span></a>
             </div>
-            <div class="sign-up5__img">
-                <img src="../../static/img/artist.jpeg">
-                <img src="../../static/img/artist.jpeg">
-            </div>
-            <div class="sign-up5__img">
-                <img src="../../static/img/artist.jpeg">
-                <img src="../../static/img/artist.jpeg">
-            </div>
-            <div class="sign-up5__img sign-up5__img_bottom">
-                <img src="../../static/img/artist.jpeg">
-                <img src="../../static/img/artist.jpeg">
-            </div>
-        </div>
-            <a href="../templates/sign-up6.html" class="next-page">다음</a>
-
         </div>
     </main>
 
@@ -96,7 +84,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/3fb5443896.js" crossorigin="anonymous"></script>
-    <script src="./js/agree.js"></script>
 </body>
 
 </html>

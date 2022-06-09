@@ -1,0 +1,41 @@
+.find-idpw__fail{
+    width: 500px;
+    height: 355px;
+    margin: 120px auto;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.find-idpw__fail h1{
+    font-size: 28px;
+    letter-spacing: -0.7px;
+color: #8CA0EF;
+padding:40px 0px;
+}
+
+.find-idpw__fail h3{
+    font-size: 18px;
+letter-spacing: -0.45px;
+color: #191919;
+margin-bottom:37px;
+}
+
+.find-idpw__fail-btn{
+    display: flex;
+    flex-direction: column;
+    padding:0 58px;
+}
+
+
+.find-idpw__fail .next-page{
+    margin:30px 0;
+}
+
+.find-idpw__fail-btn a{
+    font-size: 18px;
+}
+
+.find-idpw__fail .next-page,
+.find-idpw__fail .next-page2{
+    padding: 10px 0;
+}
